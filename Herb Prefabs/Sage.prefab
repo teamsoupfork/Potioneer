@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2738607124881836180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3362372922483448416}
+  m_Layer: 0
+  m_Name: Sage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3362372922483448416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738607124881836180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.8801, y: -11.2478, z: -18.9253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5183770273144014988}
+  - {fileID: 7323707361636996317}
+  - {fileID: 2276784706627580626}
+  - {fileID: 353578317682831849}
+  - {fileID: 4709644714221316531}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3009418817727283393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2276784706627580626}
+  - component: {fileID: 7116748575834048740}
+  - component: {fileID: 3602682292022080541}
+  m_Layer: 0
+  m_Name: SageLeaf (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2276784706627580626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3009418817727283393}
+  m_LocalRotation: {x: 0.079417035, y: 0.32542247, z: 0.10446882, w: 0.9364184}
+  m_LocalPosition: {x: -0.06, y: 0.04, z: -0.239}
+  m_LocalScale: {x: 5, y: 5, z: 3}
+  m_Children: []
+  m_Father: {fileID: 3362372922483448416}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 4.631, y: 38.911003, z: 14.368001}
+--- !u!33 &7116748575834048740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3009418817727283393}
+  m_Mesh: {fileID: -5511996699474248536, guid: 0cdf00c0252cb5b43964e584e398ce25, type: 3}
+--- !u!23 &3602682292022080541
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3009418817727283393}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 41be0c635ec017743a7a3efefc707514, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &6050674962763589326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7323707361636996317}
+  - component: {fileID: 1799205325082357483}
+  - component: {fileID: 5459636939194733074}
+  m_Layer: 0
+  m_Name: SageLeaf (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7323707361636996317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050674962763589326}
+  m_LocalRotation: {x: 0.108313195, y: 0.013463185, z: 0.07408817, w: 0.9912608}
+  m_LocalPosition: {x: 0.053, y: 0.024, z: 0.026}
+  m_LocalScale: {x: 5, y: 5, z: 3}
+  m_Children: []
+  m_Father: {fileID: 3362372922483448416}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 12.283001, y: 2.5070002, z: 8.819}
+--- !u!33 &1799205325082357483
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050674962763589326}
+  m_Mesh: {fileID: -5511996699474248536, guid: 0cdf00c0252cb5b43964e584e398ce25, type: 3}
+--- !u!23 &5459636939194733074
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050674962763589326}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 41be0c635ec017743a7a3efefc707514, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8190686809461389983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5183770273144014988}
+  - component: {fileID: 4227601481977934522}
+  - component: {fileID: 7608827504819588675}
+  m_Layer: 0
+  m_Name: SageLeaf (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5183770273144014988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190686809461389983}
+  m_LocalRotation: {x: 0.032616388, y: 0.20493671, z: 0.153754, w: 0.9660729}
+  m_LocalPosition: {x: -0.014, y: 0.062, z: -0.142}
+  m_LocalScale: {x: 5, y: 5, z: 3}
+  m_Children: []
+  m_Father: {fileID: 3362372922483448416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 23.954, z: 18.086}
+--- !u!33 &4227601481977934522
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190686809461389983}
+  m_Mesh: {fileID: -5511996699474248536, guid: 0cdf00c0252cb5b43964e584e398ce25, type: 3}
+--- !u!23 &7608827504819588675
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190686809461389983}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 41be0c635ec017743a7a3efefc707514, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &299120096900317865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3362372922483448416}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.043
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0070188977
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.05588805
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.12441176
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9906306
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.5940001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 6.2590003
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 14.229001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_Name
+      value: SageLeaf (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cdf00c0252cb5b43964e584e398ce25, type: 3}
+--- !u!4 &4709644714221316531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+    type: 3}
+  m_PrefabInstance: {fileID: 299120096900317865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4725011950824217331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3362372922483448416}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.117
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.10874362
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9940698
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.486001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0cdf00c0252cb5b43964e584e398ce25,
+        type: 3}
+      propertyPath: m_Name
+      value: SageLeaf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cdf00c0252cb5b43964e584e398ce25, type: 3}
+--- !u!4 &353578317682831849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0cdf00c0252cb5b43964e584e398ce25,
+    type: 3}
+  m_PrefabInstance: {fileID: 4725011950824217331}
+  m_PrefabAsset: {fileID: 0}
