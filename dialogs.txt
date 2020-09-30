@@ -1,0 +1,3 @@
+Basil, a herb used to make red potions. These potions gives the consumer better focus.
+Sage, a herb used to make blue potions. These potions help the consumer dilate time.
+Mandrake, a herb to double the potion yield. You can only use it once.
